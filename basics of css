@@ -1,0 +1,5 @@
+The extension is .css
+It is also a client side language
+This will also run on the browser like HTML
+
+syntax: selector { property : value ; }
