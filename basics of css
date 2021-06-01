@@ -13,3 +13,13 @@ There are 3 types of css decalartions to integrate the css file with the HTML do
 2. inline
 3. 
 
+Pseudo elements: 
+- These are the predefined keywords. 
+- We denote them through colon (:)
+- There are 5 of these:
+    1. Before 
+    2. After
+    3. First letter p[title*="country"]::first-letter{ background-color : red;}
+    4. First line
+    5. Selection
+
