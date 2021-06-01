@@ -3,3 +3,13 @@ It is also a client side language
 This will also run on the browser like HTML
 
 syntax: selector { property : value ; }
+1. Simple selectors: classes, IDs, direct initiation
+2. Combinator selectors: There are 4 types of conbinator selectors.
+3. Attribute selectors: Select and element using attributes [title] p[title="country"]
+
+
+There are 3 types of css decalartions to integrate the css file with the HTML doc.
+1. External :     <link type="text/css" rel="stylesheet" href="index.html">
+2. inline
+3. 
+
