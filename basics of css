@@ -15,11 +15,49 @@ There are 3 types of css decalartions to integrate the css file with the HTML do
 
 Pseudo elements: 
 - These are the predefined keywords. 
-- We denote them through colon (:)
+- We denote them through colon (::)
 - There are 5 of these:
-    1. Before 
-    2. After
+    1. Before p[title*="country"]::before{ content: "****";}
+    2. After  p[title*="country"]::after{ content: "****";}
     3. First letter p[title*="country"]::first-letter{ background-color : red;}
-    4. First line
-    5. Selection
+    4. First line p[title*="country"]::first-line{ background-color : red;}
+    5. Selection p[title*="country"]::select{ background: red;}
+
+Pseudo classes: 
+- These are the predefined keywords
+- We denote them through colon (:)
+- There are many Pseudo classes. Here is the list of some of them:
+    - :root to select the HTML root element syntax :root{background:orange}
+    - :hover to change the color of the content/ text when the cursor is moved to that content/ text 
+    - :focus to focus a particular input syntax input:focus{background:red}
+    - :disabled This is used to select the elements when they are in the disabled state
+    - :enabled by default they are enabled
+    - :optional
+    - :required This Pseudo class is used select elements which are required. 
+    The user should give some value in the input element
+    syntax. Input:required/ optional {background: red; }
+    - :out-of-range 
+    - :in-range
+    - :invalid
+    - :valid
+    - :read-only
+    - :read-write
+    - :checked
+    - :link
+    - :active
+    - :visited
+    - :empty
+    - :lang(language)
+    - :not(selector)
+    - :target
+    - :first-child
+    - :last-child
+    - :first-of-type
+    - :last-of-type
+    - :
+    - :
+    - :
+
+
+
 
